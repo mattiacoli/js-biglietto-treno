@@ -21,6 +21,12 @@ let price = kmInfo * 0.21
 if (age < 16){
   
   let discount = price - (price / 100 * 20)
-  console.log(discount);
-  
+  console.log(discount.toFixed(2));  
+
+} else if (age > 65){
+  let discount = price - (price / 100 * 40)
+  console.log(discount);  
+
+} else {
+
 }
