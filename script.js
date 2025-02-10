@@ -18,7 +18,7 @@ console.log(age)
 let price = kmInfo * 0.21
 
 // calcolare il prezzo del biglietto
-if (age <= 18){
+if (age < 18){
   
   let discount = price - (price / 100 * 20)
   alert(`prezzo finale euro: ${discount.toFixed(2)}` );  
