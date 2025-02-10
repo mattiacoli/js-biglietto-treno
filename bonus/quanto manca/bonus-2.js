@@ -3,11 +3,20 @@
 
  
 // Stabilire l'ora attuale
-const ora = new Date() ;
-console.log(ora.getHours());
+const data = new Date() ;
+const hour = data.getHours();
+const minute = data.getMinutes();
+
+
+
+
 
 // attraverso una operazione matematica stabilire i minuti mancanti allo scoccare della prossima ora
 
+const remain = Number(60 - minute )
+
+console.log(hour + ':' + minute );
+console.log('rimangono '+ remain + ' min alla prossima ora' );
 
 
 
