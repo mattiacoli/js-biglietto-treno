@@ -33,3 +33,5 @@ if (sum % 2 === 0 && userChoice == 'pari'){
 } else {
   alert ('Ritenta sarai piu fortunato')
 }
+
+
