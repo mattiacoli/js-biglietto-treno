@@ -6,6 +6,7 @@
 const data = new Date() ;
 const hour = data.getHours();
 const minute = data.getMinutes();
+const fullHour = `${hour}:${minute}`
 
 
 
@@ -15,8 +16,11 @@ const minute = data.getMinutes();
 
 const remain = Number(60 - minute )
 
-console.log(hour + ':' + minute );
+
 console.log('rimangono '+ remain + ' min alla prossima ora' );
+
+alert ("sono le " + hour + " rimangono " + remain+ " min alla prossima ora")
+
 
 
 
